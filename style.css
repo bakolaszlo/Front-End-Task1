@@ -1,3 +1,10 @@
+body, html
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 .website
 {
     display: flex;
@@ -14,7 +21,9 @@ a
 .headerContainer{
     display:flex;
     justify-content: flex-end;
+    margin-top: .5em;
     margin-bottom: 5px;
+    margin-right: 1em;
 }
 
 .headerLeft
@@ -110,14 +119,14 @@ a
     flex-direction: column;
     height: 100%;
     width: 100%;
-    padding-top: 8px;
+    padding: 20px;
 }
 
 .search
 {
     flex:100%;
     background-color: transparent;
-    /* border: none; */
+    border: none;
     outline: none;
     height: 34px;
     font-size: 20px;
@@ -127,17 +136,43 @@ a
 {
     
     display: flex;
-    border: 1px solid #F2F2F2;
-    box-shadow: 4px 3px 6px rgba(0,0,0,0.25);
-    border-radius: 146px;
+    border: 1px solid #dfe1e5;
     flex:1;
+
+    border-radius: 146px;
     height: 44px;
+    
     margin: auto;
     max-width: 482px;
+    
     width: auto;
     align-items: center;
     justify-content: center;
-    
+}
+
+@media only screen and (max-width: 1000px)
+{
+    .formDiv
+    {
+        padding:0px;
+    }
+
+    .inputarea
+    {
+        max-width: 85%;
+        margin:0;
+        margin-left: 5%;
+    }
+
+    .search
+    {
+        flex:5%
+    }
+}
+
+.inputarea:hover
+{
+    box-shadow: 4px 3px 6px rgba(0,0,0,0.25);
 }
 
 .loop
@@ -170,7 +205,6 @@ a
 .searchArea
 {
     display: flex;
-    margin-bottom: 1em;
 }
 
 .btn{
@@ -192,10 +226,101 @@ a
 
 .buttons
 {
-    margin-top: 8px;
+    padding: 18px 0px 0px;
+}
+
+.btn:hover
+{
+    box-shadow:0 1px 1px rgba(0,0,0,.1);
+    background-color:#f8f9fa;
+    border:1px solid #dadce0;
+    color:#202124;
 }
 
 .micdiv
 {
     padding: 0px 8px;
+}
+
+.preFooterContent
+{
+    line-height: 28px;
+    font-family: arial,sans-serif;
+    margin: 0px 0px 24px;
+}
+
+.preFooterRef
+{
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.preFooter
+{
+
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.footer
+{
+    background: #f2f2f2;
+    flex-shrink: 0;
+    box-sizing: border-box;
+
+}
+
+.origin
+{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+.misc
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+@media only screen and (max-width: 1200px) {
+    .misc
+    {
+    justify-content: space-evenly;
+    }
+}
+.leftSide
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:1200px)
+{
+    .leftSide
+    {
+        justify-content: space-evenly;   
+    }
+}
+
+.footerRef
+{
+    color: #70757a;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 400px)
+{
+    .footerRef
+    {
+        padding:10px;
+    }
 }
