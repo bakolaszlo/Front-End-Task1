@@ -1,0 +1,68 @@
+
+
+.headerContainer{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.headerLeft
+{
+    display: inherit;
+    margin:0.5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerRight
+{
+    display: inherit;
+    margin:0.5em;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.simpleRef
+{
+    text-align: center;
+    padding-right: 1em;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+.dots
+{
+    fill:currentColor;
+    display: inherit;
+    padding-top:0.15em;
+    text-align: center;
+    padding-right: 1em;
+    text-decoration: none;
+}
+
+.headersvg
+{
+    color: #5f6368;
+}
+
+
+.signIn
+{
+
+    letter-spacing: 0.25px;
+    color: #fff;
+    padding: 9px 15px;
+    background: #1A73E8;
+    text-decoration: none;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.headersvg
+{
+    height: 24px;
+    width: 24px;
+    text-decoration: none;
+    color:#5F6368;
+}
