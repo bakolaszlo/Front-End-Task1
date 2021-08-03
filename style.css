@@ -14,6 +14,7 @@ a
 .headerContainer{
     display:flex;
     justify-content: flex-end;
+    margin-bottom: 5px;
 }
 
 .headerLeft
@@ -49,12 +50,9 @@ a
     text-align: center;
     padding-right: 1em;
     text-decoration: none;
+    
 }
 
-.headersvg
-{
-    color: #5f6368;
-}
 
 
 .signIn
@@ -106,3 +104,98 @@ a
     width:auto
 }
 
+.formDiv
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding-top: 8px;
+}
+
+.search
+{
+    flex:100%;
+    background-color: transparent;
+    /* border: none; */
+    outline: none;
+    height: 34px;
+    font-size: 20px;
+}
+
+.inputarea
+{
+    
+    display: flex;
+    border: 1px solid #F2F2F2;
+    box-shadow: 4px 3px 6px rgba(0,0,0,0.25);
+    border-radius: 146px;
+    flex:1;
+    height: 44px;
+    margin: auto;
+    max-width: 482px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.loop
+{
+    fill:currentColor;
+    display: flex;
+    height: 20px;
+    width: 20px;
+    line-height: 24px;
+    vertical-align: middle;
+
+}
+
+.loopdiv
+{
+    padding: 0px 13px;
+    color: #9aa0a6;
+}
+
+
+
+.microfon
+{
+    display: flex;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.searchArea
+{
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.btn{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.buttons
+{
+    margin-top: 8px;
+}
+
+.micdiv
+{
+    padding: 0px 8px;
+}

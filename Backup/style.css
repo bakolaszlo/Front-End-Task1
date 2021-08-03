@@ -179,17 +179,13 @@ a{
 .inputarea
 {
     background: #FFFFFF;
-    display: flex;
     border: 1px solid #dfe1e5;
     box-shadow: none;
     border-radius: 24px;
-    z-index: 3;
     height: 44px;
-    margin: auto;
     width: 482px;
     width: auto;
     flex: 1;
-    display: flex;
     padding: 5px 8px 0 16px;
     padding-left: 14px;
 }
