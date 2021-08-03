@@ -1,4 +1,8 @@
 
+a
+{
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+}
 
 .headerContainer{
     display:flex;
@@ -57,6 +61,7 @@
     font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
     font-size: 14px;
     border-radius: 4px;
+    white-space: nowrap
 }
 
 .headersvg
