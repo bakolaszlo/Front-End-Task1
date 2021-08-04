@@ -257,6 +257,11 @@ a
     color: #1a0dab;
 }
 
+.footerRef:hover, .preFooterRef:hover
+{
+    text-decoration: underline;
+}
+
 .preFooter
 {
 
